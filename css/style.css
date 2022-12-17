@@ -1,0 +1,29 @@
+img {
+    width: 500px;
+}
+body {
+    background-color: #f1f1f1;
+    display: black;
+    margin-left: auto;
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #d7be69;
+    padding: 10px 0;
+    width: 100%;
+}
+
+a:visited {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
