@@ -1,19 +1,18 @@
-img {
-    width: 500px;
-}
+
 body {
     background-color: #f1f1f1;
     display: black;
     margin-left: auto;
     width: 100%;
     text-align: center;
+    /* height: 100%; */
 }
 
 nav {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color: #d7be69;
+    background-color: #d7be6a;
     padding: 10px 0;
     width: 100%;
 }
@@ -26,4 +25,72 @@ a {
     color: white;
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
+.cover {
+    width: 500px;
+}
+
+.foil {
+    width: 200px;
+}
+
+.one {
+    width: 350px;
+    height: auto;   
+}
+
+.two {
+    width: 700px;
+    height: auto;
+    
+}
+
+.three {
+    width: 800px;
+    height: auto;
+    
+}
+
+p {
+    font-family: URW Chancery L, cursive;
+    font-size: 40px;
+    color: #d7be69;
+    font-weight: 50;
+    /* text-shadow: 0 0 1px black; */
+}
+
+p1 {
+    color:#aa8a27;
+    font-family: "Guardian-EgypTT",Charter,"Charter Bitstream",Cambria,"Noto Serif Light","Droid Serif",Georgia,serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+form { 
+    display: inline;
+    right:auto;
+    
+}
+
+input[type=text] {
+    /* padding:5px;  */
+    border:2px solid #ccc; 
+    color:#aa8a27;
+    /* -webkit-border-radius: 5px; */
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    /* -webkit-border-radius: 5px; */
+    border-radius: 5px; 
 }
